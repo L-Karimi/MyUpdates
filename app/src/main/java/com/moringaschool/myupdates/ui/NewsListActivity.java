@@ -12,6 +12,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.moringaschool.myupdates.R;
+import com.moringaschool.myupdates.adapters.NewsListAdapter;
 import com.moringaschool.myupdates.models.Article;
 import com.moringaschool.myupdates.models.NewsUpdatesSearchResponse;
 import com.moringaschool.myupdates.network.NewsApi;
@@ -51,7 +52,7 @@ public class NewsListActivity extends AppCompatActivity {
         String user = intent.getStringExtra("user");
 //        mEditTextPersonName.setText("Welcome back " + user);
 
-        NewsApi client = NewsClient.getClient();
+        NewsApi client = NewsClient.getClient();return null;
 
         Call<NewsUpdatesSearchResponse> call = client.getNews("standardmedia.co.ke", "441e5fea5c6d4f29bee20f551a8cc836");
 
