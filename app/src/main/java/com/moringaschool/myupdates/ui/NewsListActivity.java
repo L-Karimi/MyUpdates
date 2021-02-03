@@ -41,7 +41,7 @@ public class NewsListActivity extends AppCompatActivity {
 
     //Override calling get methods in main layout and class
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public Object onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_newsupdate);
         ButterKnife.bind(this);
@@ -52,7 +52,8 @@ public class NewsListActivity extends AppCompatActivity {
         String user = intent.getStringExtra("user");
 //        mEditTextPersonName.setText("Welcome back " + user);
 
-        NewsApi client = NewsClient.getClient();return null;
+        NewsApi client = NewsClient.getClient();
+        return null;
 
         Call<NewsUpdatesSearchResponse> call = client.getNews("standardmedia.co.ke", "441e5fea5c6d4f29bee20f551a8cc836");
 
