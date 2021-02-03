@@ -8,4 +8,5 @@
     <item name="NewsImageView" type="id" />
     <item name="TitleNameTextView" type="id" />
     <item name="authorTextView" type="id" />
+    <item name="recycler1" type="id" />
 </resources>
