@@ -5,4 +5,7 @@
     <item name="recyclerView" type="id" />
     <item name="errorTextView" type="id" />
     <item name="progressBar" type="id" />
+    <item name="NewsImageView" type="id" />
+    <item name="TitleNameTextView" type="id" />
+    <item name="authorTextView" type="id" />
 </resources>
