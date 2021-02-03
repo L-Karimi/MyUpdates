@@ -2,4 +2,7 @@
 <resources>
     <item name="GetStartedbutton" type="id" />
     <item name="bookmarkButton" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="errorTextView" type="id" />
+    <item name="progressBar" type="id" />
 </resources>
