@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="GetStartedbutton" type="id" />
+    <item name="bookmarkButton" type="id" />
+</resources>
