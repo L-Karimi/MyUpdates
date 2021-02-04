@@ -15,4 +15,8 @@
     <item name="categoryTextView" type="id" />
     <item name="viewPager" type="id" />
     <item name="editTextPersonName" type="id" />
+    <item name="registerTextView" type="id" />
+    <item name="passwordLoginButton" type="id" />
+    <item name="emailEditText" type="id" />
+    <item name="passwordEditText" type="id" />
 </resources>
