@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "409197794782",
+    "project_id": "myupdates-a5d51",
+    "storage_bucket": "myupdates-a5d51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409197794782:android:1ececd1e037febd957b94f",
+        "android_client_info": {
+          "package_name": "com.moringaschool.myupdates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409197794782-6pnla0hs5hav0vg5ktubp2jathccsodb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALZ-6veYwCGgBgLZIRnZ6sQIRk8LqNlJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409197794782-6pnla0hs5hav0vg5ktubp2jathccsodb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

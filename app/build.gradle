@@ -3,15 +3,23 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.3"
+        compileSdkVersion 30
 
-    testOptions {
-        unitTests {
-            includeAndroidResources = true
+        defaultConfig {
+            applicationId "com.moringaschool.myupdates"
+            minSdkVersion 16
+            targetSdkVersion 30
+            versionCode 1
+            versionName "1.0"
+            testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+            multiDexEnabled true
+            compileOptions {
+                sourceCompatibility 1.8
+                targetCompatibility 1.8
+            }
         }
-    }
-    dependenciesInfo {
+
+        dependenciesInfo {
         includeInApk true
         includeInBundle true
     }
@@ -19,17 +27,6 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-
-    defaultConfig {
-        applicationId "com.moringaschool.newsupdates"
-        minSdkVersion 21
-        targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-    }
-
     packagingOptions {
         exclude 'META-INF/DEPENDENCIES.txt'
         exclude 'META-INF/DEPENDENCIES'
@@ -93,22 +90,17 @@ dependencies {
     implementation 'org.ocpsoft.prettytime:prettytime:4.0.1.Final'
 
 //Add firebase SDK
-//    implementation 'com.google.firebase:firebase-core:19.2.0'
 //Realtime Database for firebase data saving
     implementation 'com.google.firebase:firebase-database:19.5.1'
-//    implementation 'com.google.firebase:firebase-database:19.5.0'
 // FirebaseUI for Firebase Realtime Database
     implementation 'com.google.firebase:firebase-core:18.0.2'
 //Realtime Database for firebase data saving
     implementation 'com.google.firebase:firebase-database:19.6.0'
 // FirebaseUI for Firebase Realtime Database
     implementation 'com.firebaseui:firebase-ui-database:6.3.0'
-//    implementation 'com.firebaseui:firebase-ui-database:3.3.1'
     implementation 'com.google.android.material:material:1.2.1'
 //Firebase User Authentication
-//    implementation 'com.google.firebase:firebase-auth:17.2.1'
 
     implementation 'com.google.firebase:firebase-auth:20.0.2'
-
 
 }

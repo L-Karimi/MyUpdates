@@ -29,7 +29,6 @@ import butterknife.ButterKnife;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link com.moringaschool.newsupdates.NewsDetailFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
 public class NewsDetailFragment extends Fragment implements View.OnClickListener {
@@ -49,8 +48,8 @@ public class NewsDetailFragment extends Fragment implements View.OnClickListener
         // Required empty public constructor
     }
 
-    public static com.moringaschool.myupdates.NewsDetailFragment newInstance(Article top_headlines) {
-        com.moringaschool.myupdates.NewsDetailFragment newsDetailFragment = new com.moringaschool.myupdates.NewsDetailFragment();
+    public static  NewsDetailFragment newInstance(Article top_headlines) {
+        NewsDetailFragment newsDetailFragment = new NewsDetailFragment();
         Bundle args = new Bundle();
         args.putParcelable("top_headlines", Parcels.wrap(top_headlines));
         newsDetailFragment.setArguments(args);
@@ -85,6 +84,7 @@ public class NewsDetailFragment extends Fragment implements View.OnClickListener
 
     @Override
     public void onClick(View v) {
+
 
 
         if (v == mBookmarkButton) {

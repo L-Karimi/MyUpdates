@@ -9,4 +9,8 @@
     <item name="TitleNameTextView" type="id" />
     <item name="authorTextView" type="id" />
     <item name="recycler1" type="id" />
+    <item name="action_logout" type="id" />
+    <item name="publishedAtTextView" type="id" />
+    <item name="BookmarkButton" type="id" />
+    <item name="categoryTextView" type="id" />
 </resources>

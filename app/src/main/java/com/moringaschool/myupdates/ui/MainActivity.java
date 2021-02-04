@@ -1,4 +1,4 @@
-package com.moringaschool.myupdates;
+package com.moringaschool.myupdates.ui;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,8 +16,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.ValueEventListener;
-import com.moringaschool.myupdates.ui.BookmarkedNewsListActivity;
-import com.moringaschool.myupdates.ui.NewsListActivity;
+import com.moringaschool.myupdates.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

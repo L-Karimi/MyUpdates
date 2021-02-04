@@ -4,7 +4,6 @@ package com.moringaschool.myupdates.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import com.moringaschool.newsupdates.models.Source;
 
 import org.parceler.Parcel;
 
@@ -57,7 +56,7 @@ public class Article {
      * @param url
      * @param content
      */
-    public Article(com.moringaschool.newsupdates.models.Source source, String author, String title, String description, String url, String urlToImage, String publishedAt, String content, String pushId) {
+    public Article(com.moringaschool.myupdates.models.Source source, String author, String title, String description, String url, String urlToImage, String publishedAt, String content, String pushId) {
         super();
         this.source = source;
         this.author = author;
