@@ -13,4 +13,5 @@
     <item name="publishedAtTextView" type="id" />
     <item name="BookmarkButton" type="id" />
     <item name="categoryTextView" type="id" />
+    <item name="viewPager" type="id" />
 </resources>
