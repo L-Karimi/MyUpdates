@@ -19,4 +19,8 @@
     <item name="passwordLoginButton" type="id" />
     <item name="emailEditText" type="id" />
     <item name="passwordEditText" type="id" />
+    <item name="createUserButton" type="id" />
+    <item name="nameEditText" type="id" />
+    <item name="confirmPasswordEditText" type="id" />
+    <item name="loginTextView" type="id" />
 </resources>
