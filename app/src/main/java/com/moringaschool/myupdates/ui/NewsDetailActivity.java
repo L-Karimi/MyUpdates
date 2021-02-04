@@ -7,6 +7,7 @@ import androidx.viewpager.widget.ViewPager;
 import android.os.Bundle;
 
 import com.moringaschool.myupdates.R;
+import com.moringaschool.myupdates.adapters.NewsPagerAdapter;
 import com.moringaschool.myupdates.models.Article;
 
 import org.parceler.Parcels;
